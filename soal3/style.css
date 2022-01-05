@@ -1,0 +1,103 @@
+
+   
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+
+margin-left: 0%;
+margin-right: 0%
+;}
+
+ ul li{
+   
+    font-size: 15px;
+}
+hr{
+    margin-top: 1rem !important;
+    margin-left: auto;
+    margin-right: auto;
+     width: 4.5vw;
+     height: 0.6vh !important;
+     color: black;
+ 
+
+    
+}
+.h2{
+    margin-top: 15vh;
+ }
+
+
+@media only screen and (min-width: 766px) {   
+     #contf2{    
+      flex-direction : column;  
+    }  
+    #f{
+        order:1;
+    }
+    #a {
+      order : 2;   
+    }  
+   #b {
+     order : 4;
+     } 
+     #c{
+         order:3;
+     }
+    }
+    
+@media only screen and (min-width: 960px) {   
+    #contf2{    
+     flex-direction : column;  
+   }  
+   #f{
+       order:1;
+   }
+   #a {
+     order : 2;   
+   }  
+  #b {
+    order : 3;
+    } 
+    #c{
+        order:4;
+    }
+   }
+   @media only screen and (max-width: 575px) {  
+     
+#con2{
+margin-top: 90vh;
+}
+    }
+    .circle {
+        border: 2px solid rgb(49, 46, 46);
+        background-color: rgb(49, 46, 46);
+        border-radius: 100%;
+        padding: 8%;
+        position: relative;
+        color: white;
+        width: 150px;
+        height: 150px;
+        transform: 0 !important;
+       margin: auto;
+      }    
+
+      #twitter{
+          border-radius: 50%;
+          background-color: black;
+          color: white;
+         
+      }
+    
+      @media only screen and (max-width: 960px) {   
+ 
+        #fl{    
+            flex-direction : column;  
+          }  
+       #but2{
+           order:1;
+       }
+       #but1 {
+         order : 2;   
+       }  
+    }
