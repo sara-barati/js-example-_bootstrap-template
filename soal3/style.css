@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
 body{
     font-family: 'Dosis', sans-serif;
-
+margin-bottom: 0%;
 margin-left: 0%;
 margin-right: 0%
 ;}
@@ -101,3 +101,32 @@ margin-top: 90vh;
          order : 2;   
        }  
     }
+    @media only screen and (max-width:768 px) {   
+      #navv{
+       height: 200px;
+      }
+    }
+    .footer-icones {
+      font-size: xx-large;
+      border: white 1px solid;
+      border-radius: 50%;
+      background-color: white;
+     
+  }
+  .sss{
+
+margin-left: 55%;
+
+ 
+  }
+  @media only screen and (min-width:768px) {   
+   .sss{
+ margin-left:80% ;
+    }
+  }
+   @media only screen and (min-width:768px) {   
+   #test{
+     justify-content: center;
+    
+   }}
+ 
